@@ -124,6 +124,10 @@ face-recognition-project/
 ├── face_recognition.py        # Main script for training and real-time face recognition
 ├── requirements.txt           # Required dependencies for the project
 └── README.md                  # This file
+
+
+
+
 💡 Future Improvements
 Accuracy Tuning: Experiment with different face detection and recognition algorithms to improve accuracy.
 Live Streaming Support: Add support for live streaming videos (e.g., using IP cameras or RTSP streams).
