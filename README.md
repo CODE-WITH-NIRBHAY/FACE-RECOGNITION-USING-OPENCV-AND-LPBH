@@ -122,14 +122,21 @@ graphql
 Copy
 face-recognition-project/
 │
-├── dataset/                   # Folder containing subfolders of images for each person
+├── dataset/  # Folder containing subfolders of images for each person
+<br>
 │   ├── person_1/              # Folder for person 1
+<br>
 │   ├── person_2/              # Folder for person 2
+<br>
 │   └── ...
 ├── trained_model.yml          # Saved face recognizer model
+<br>
 ├── label_dict.pkl             # Saved dictionary mapping label IDs to person names
+<br>
 ├── face_recognition.py        # Main script for training and real-time face recognition
+<br>
 ├── requirements.txt           # Required dependencies for the project
+<br>
 └── README.md                  # This file
 
 
