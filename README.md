@@ -30,14 +30,21 @@ markdown
 Copy
 dataset/
     ├── person_1/
+    <br>
     │    ├── image1.jpg
+    <br>
     │    ├── image2.jpg
+    <br>
     │    └── ...
     ├── person_2/
+    <br>
     │    ├── image1.jpg
+    <br>
     │    ├── image2.jpg
+    <br>
     │    └── ...
     └── ...
+    <br>
 You can label these folders with the person's name or an ID (the system will use numeric labels).
 
 Step 2: Train the Model
