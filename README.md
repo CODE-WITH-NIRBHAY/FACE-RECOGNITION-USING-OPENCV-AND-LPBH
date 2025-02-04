@@ -3,9 +3,13 @@
 
 🧠 Features
 Real-Time Face Detection: Detects faces in the live webcam feed using Haar Cascades.
+<br>
 Face Recognition: Recognizes faces based on pre-trained data and assigns names to detected faces.
+<br>
 Confidence-Based Recognition: Uses a confidence threshold to identify whether the face is recognized or marked as "Unknown".
+<br>
 Seamless Training and Prediction: Automatically trains the system with a dataset and uses the trained model for predictions.
+<br>
 Save and Load Models: Saves and loads both the trained face recognizer and the label-to-name mapping for easy use.
 
 
@@ -19,7 +23,7 @@ You can install the required dependencies by running:
 
 bash
 Copy
-pip install opencv-python numpy
+pip install opencv-contrib-python numpy
 
 
 🏃‍♂️ Setup and Usage
@@ -29,6 +33,7 @@ Prepare a dataset with images of the faces you want to recognize. Each person sh
 markdown
 Copy
 dataset/
+<br>
     ├── person_1/
     <br>
     │    ├── image1.jpg
@@ -53,6 +58,7 @@ Run the train_face_recognizer function to train the model using your dataset. Th
 python
 Copy
 train_face_recognizer("path_to_your_dataset_folder")
+<br>
 Step 3: Run Real-Time Face Recognition
 Once the model is trained and saved, you can start the webcam and run the face recognition system. It will detect faces in real-time and recognize them based on the trained model.
 
@@ -115,6 +121,7 @@ If the system doesn’t recognize the face, it will display:
 
 Name: Unknown
 Confidence: 55.3% (low confidence indicating an unknown person)
+<br>
 📂 Project Structure
 Here’s an overview of the project directory:
 
@@ -147,8 +154,7 @@ Accuracy Tuning: Experiment with different face detection and recognition algori
 Live Streaming Support: Add support for live streaming videos (e.g., using IP cameras or RTSP streams).
 Enhanced UI: Build a graphical user interface (GUI) for easier use and management of face datasets.
 Multiple Face Recognition: Recognize multiple faces in the same frame and support multiple person identification.
-📝 License
-This project is licensed under the MIT License. Feel free to use and modify it for personal or commercial purposes.
+
 
 🤝 Contributing
 We welcome contributions! If you have ideas for improving this project or fixing issues, feel free to fork the repository and submit a pull request.
